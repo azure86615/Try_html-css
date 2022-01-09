@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--網頁編碼-->
+        <!-- 如果前後標籤中間沒包東西，可以把後標籤拿掉然後在前標籤最後加/-->
+        <meta charset="UTF-8"/>
+        <title>test website</title>
+    </head>
+    <body>
+        個人測試網頁，以下執行起來看畫面顯示<br/><br/>
+        <head>這是head效果</head>
+        <h1>這是h1效果</h1>
+        <h2>這是h2</h2>
+        <p>p表示文字或段落，也就是內文</p>
+        <h3>類推，不想打了</h3>
+        <!--連結，重點是 href 的屬性-->
+        <a href="https://google.com">跳到google網頁</a>
+        <br/>
+        <a href="page2.html">去第二頁</a><br/><br/>
+        <!-- 圖片跟影片，重點是 src 屬性-->
+        <img src="https://pbs.twimg.com/media/FIkdF1DaAAItNep?format=jpg&name=large" width="200" alt=""/>
+        
+        <!--影片該下載成.mp4之類的來播放-->
+        <video src="https://www.youtube.com/watch?v=-Gmkkanw1po" controls> 無法載入影片時能看到這段字</video><br/>
+        <!-- YT影片要用網站下面用分享、嵌入-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-Gmkkanw1po" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!-- 容器 div、span，不影響網頁顯示，是用來方便使用CSS做美化效果(容器中所有項目會受同一CSS影響)-->
+
+        <!-- input -->
+        <br/><br/>
+        <input type="text" placeholder="普通輸入框"><br/>
+        <input type="password" placeholder="隱碼輸入"><br/>
+        <input type="date"><br/>
+        <input type="range"><br/>
+        <input type="file"><br/>
+        <input type="checkbox"><br/>
+        <textarea name="" id="" cols="30" rows="10"> 文字輸入框 </textarea>
+    </body>
+</html>

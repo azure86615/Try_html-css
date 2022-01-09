@@ -1,0 +1,41 @@
+/*關鍵字為 CSS selector*/
+
+h1{ /*透過標籤決定效果對象*/
+    color: red;
+    background-color: silver;
+}
+
+p{
+    color: green;
+}
+
+.hololive{ /*.開頭，以class決定作用對象*/
+    color: blue;
+}
+
+#dog{   /*#開頭，以id決定對象*/
+    color: brown;
+}
+
+.background, #wolf:hover{ 
+    /*逗號隔開: 多對象套用效果*/
+    /*hover表示"滑鼠滑過"產生的效果*/
+    background-color: hotpink;
+}
+
+ul li:hover{
+    /*空格隔開: 深入條件套用效果，此處表示ul標籤內的li標籤才有效*/
+    background-color: red;
+}
+ul ol:hover{
+    background-color: black;
+}
+
+*{  /*整個網頁套用效果*/
+    background-color:lightgrey;
+}
+
+[type]{ /*從屬性抓*/
+    background-color: springgreen;
+}
+
